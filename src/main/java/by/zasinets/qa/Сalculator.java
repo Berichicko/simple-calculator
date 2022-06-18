@@ -1,8 +1,7 @@
 package by.zasinets.qa;
 
 import java.util.Scanner;
-
-public class Сalculator {
+class Сalculator {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Введите два числа ");
