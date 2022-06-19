@@ -1,10 +1,10 @@
 package by.zasinets.qa;
 
-public class Multiplication implements Сalculator {
+public class Multiplying implements Сalculator {
     private final int numberFirst;
     private final int numberSecond;
 
-    public Multiplication(int numberFirst, int numberSecond) {
+    public Multiplying(int numberFirst, int numberSecond) {
         this.numberFirst = numberFirst;
         this.numberSecond = numberSecond;
     }

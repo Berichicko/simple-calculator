@@ -10,12 +10,12 @@ public class Main {
         int numberFirst = scanner.nextInt();
         int numberSecond = scanner.nextInt();
 
-        Addition addition = new Addition(numberFirst, numberSecond);
-        Multiplication multiplication = new Multiplication(numberFirst, numberSecond);
+        Sum sum = new Sum(numberFirst, numberSecond);
+        Multiplying multiplying = new Multiplying(numberFirst, numberSecond);
 
-        System.out.println("Сумма двух чисел" + " " + addition.calculation());
+        System.out.println("Сумма двух чисел" + " " + sum.calculation());
 
-        System.out.println("Произведение двух чисел" + " " + multiplication.calculation());
+        System.out.println("Произведение двух чисел" + " " + multiplying.calculation());
 
     }
 }

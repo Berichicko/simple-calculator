@@ -1,11 +1,11 @@
 package by.zasinets.qa;
 
-public class Addition implements Сalculator {
+public class Sum implements Сalculator {
     private final int numberFirst;
     private final int numberSecond;
 
 
-    public Addition(int numberFirst, int numberSecond) {
+    public Sum(int numberFirst, int numberSecond) {
         this.numberFirst = numberFirst;
         this.numberSecond = numberSecond;
     }
